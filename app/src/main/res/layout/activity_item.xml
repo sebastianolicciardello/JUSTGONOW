@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp"
+        android:backgroundTint="@color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+
+            <!-- Immagine -->
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="30dp"
+                android:layout_margin="5dp"
+                android:layout_width="320dp"
+                android:layout_height="240dp"
+                app:cardElevation="0dp"
+                android:backgroundTint="@color/transparent">
+
+                <ImageView
+                    android:id="@+id/ImageViewItem"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/trail_name_text"
+                android:textColor="?attr/colorControlNormal"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_height="0dp"
+                android:layout_weight="60">
+
+                <TextView
+
+                    android:id="@+id/description"
+                    android:textColor="?attr/colorControlNormal"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
+            </ScrollView>
+            <!-- rating e favorites-->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                >
+
+                    <ImageView
+                        android:layout_margin="5dp"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        app:srcCompat="@drawable/ic_baseline_star_rate_24"
+                        tools:ignore="ContentDescription" />
+
+                    <!-- VALORE PRESO DAL DB -->
+                    <TextView
+                        android:id="@+id/rating"
+                        android:textColor="?attr/colorControlNormal"
+                        android:textSize="25sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/noReview" />
+
+                    <!-- VALORE PRESO DAL DB -->
+                    <TextView
+                        android:layout_marginStart="2dp"
+                        android:id="@+id/reviewsNumber"
+                        android:textColor="?attr/colorControlNormal"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="bottom"
+                        android:text="" />
+
+            </LinearLayout>
+
+            <!-- prezzo -->
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/guided_hike"
+                    android:textColor="?attr/colorControlNormal"
+                    android:textSize="25sp"
+                    />
+
+                <!-- VALORE PRESO DAL DB -->
+                <TextView
+                    android:id="@+id/priceValue"
+                    android:textColor="?attr/colorControlNormal"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+            </LinearLayout>
+
+
+            <!-- Tasti funzione -->
+            <LinearLayout
+                android:layout_marginHorizontal="-5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_margin="8dp"
+                    android:id="@+id/infoIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:elevation="0dp"
+                    app:elevation="0dp"
+                    android:src="@drawable/ic_baseline_info_24"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_margin="8dp"
+                    android:id="@+id/mapyIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:elevation="0dp"
+                    app:elevation="0dp"
+                    android:src="@drawable/ic_baseline_map_24"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_margin="8dp"
+                    android:id="@+id/voteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:elevation="0dp"
+                    app:elevation="0dp"
+                    android:src="@drawable/ic_baseline_star_border_24"
+                    tools:ignore="ContentDescription" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_margin="8dp"
+                    android:id="@+id/favoriteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="64dp"
+                    android:elevation="0dp"
+                    app:elevation="0dp"
+                    android:src="@drawable/ic_baseline_favorite_border_24"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

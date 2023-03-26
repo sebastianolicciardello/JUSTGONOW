@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JustGoNow</string>
+    <string name="trails">Sentieri</string>
+    <string name="favorites">Preferiti </string>
+    <string name="settings">Impostazioni </string>
+    <string name="sign_in">Registrati </string>
+    <string name="confirm_password">Conferma Password </string>
+    <string name="create_account">Crea Account </string>
+    <string name="already_account">Hai già un account? </string>
+    <string name="login">Accedi </string>
+    <string name="welcome_text">Benvenuto in </string>
+    <string name="welcome_description">Scopri sentieri fantastici intorno a te, cosa aspetti? \nJust Go Now!</string>
+    <string name="email_error_validate">Formato email non valido </string>
+    <string name="password_error_validate">Password troppo corta </string>
+    <string name="confirm_password_error_validate">Le password non corrispondono </string>
+    <string name="success_register">Account creato con successo, Controlla la tua email per la verifica. </string>
+    <string name="dont_have_account">Non hai un account? </string>
+    <string name="email_already_in_use">L\'indirizzo e-mail è già utilizzato da un altro account. </string>
+    <string name="no_network">Si è verificato un errore di rete, controllare la connessione </string>
+    <string name="no_verified_email">Email non verificata, Si prega di verificare l\'email </string>
+    <string name="email_no_exist">Email inserita non è registrata </string>
+    <string name="password_invalid">Password inserita non è corretta </string>
+    <string name="add_new_trail">Aggiungi Sentiero</string>
+    <string name="trail_name_edit_text">Nome </string>
+    <string name="trail_description_edit_text">Descrizione </string>
+    <string name="trail_information_link_edit_text">Informazioni URL</string>
+    <string name="trail_price_edit_text">Prezzo </string>
+    <string name="trail_mapy_link_edit_text">Mapy URL</string>
+    <string name="email_empty">Inserisci l\'indirizzo email</string>
+    <string name="password_empty">Inserisci la password</string>
+    <string name="error_account_database">Account creato, ma non è stato possibile aggiornare il database</string>
+    <string name="forgot_password">Hai dimenticato la password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="confirm">Conferma</string>
+    <string name="reset_password_sent">Password resettata, controlla la tua casella di posta elettronica</string>
+    <string name="users_subscribed">Utenti iscritti</string>
+    <string name="trails_published">Sentieri Pubblicati</string>
+    <string name="add">Aggiungi</string>
+    <string name="logout">Esci</string>
+    <string name="image_link_edit_text">Immagine URL</string>
+    <string name="name_empty">Inserisci un nome</string>
+    <string name="description_empty">Inserisci una descrizione</string>
+    <string name="image_empty">Inserisci il link di un immagine</string>
+    <string name="information_empty">Inserisci il link ad informazioni aggiuntive</string>
+    <string name="mapy_empty">Inserisci il link a Mapy</string>
+    <string name="price_empty">Inserisci un prezzo in Euro</string>
+    <string name="add_trail_success">Sentiero aggiunto correttamente</string>
+    <string name="edit">Modifica</string>
+    <string name="delete">Elimina</string>
+    <string name="trail_deleted">Sentiero eliminato con successo</string>
+    <string name="open_url_with">Apri URL con …</string>
+    <string name="warning">Attenzione!</string>
+    <string name="warning_message">Sei sicuro di voler eliminare il sentiero?\nL\' eliminazione è irreversibile.</string>
+    <string name="cancel">Annulla</string>
+    <string name="edit_trail_success">Sentiero modificato correttamente</string>
+    <string name="guided_hike">"Escursione guidata: "</string>
+    <string-array name="votes">
+        <item>★★★★★ Incredibile!</item>
+        <item>★★★★ Lo Adoro!</item>
+        <item>★★★ Carino</item>
+        <item>★★ Deludente</item>
+        <item>★ Sconsigliato</item>
+    </string-array>
+    <string name="add_review">Aggiungi una recensione</string>
+    <string name="review_added">Recensione inserita</string>
+    <string name="reviews_number">" ( %1$d recensioni )"</string>
+    <string name="reviews_number_one">" ( %1$d recensione )"</string>
+    <string-array name="votes_again">
+        <item>★★★★★ Incredibile!</item>
+        <item>★★★★ Lo Adoro!</item>
+        <item>★★★ Carino</item>
+        <item>★★ Deludente</item>
+        <item>★ Sconsigliato</item>
+        <item>Rimuovi la tua recensione</item>
+    </string-array>
+    <string name="review_removed">Recensione rimossa</string>
+    <string name="edit_reviews">Modifica recensione</string>
+    <string name="contactUs">Contattaci per prenotare la tua escursione!</string>
+</resources>

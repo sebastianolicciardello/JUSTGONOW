@@ -1,0 +1,16 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.JustGoNow" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/forest</item>
+        <item name="colorPrimaryVariant">@color/forest</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/forest</item>
+        <item name="colorSecondaryVariant">@color/forest</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:statusBarColor" >@color/transparent</item>
+    </style>
+
+</resources>

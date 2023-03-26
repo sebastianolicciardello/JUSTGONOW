@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">JustGoNow</string>
+    <string name="trails">Trails</string>
+    <string name="favorites">Favorites </string>
+    <string name="settings">Settings </string>
+    <string name="sign_in">Sign In </string>
+    <string name="confirm_password">Confirm Password </string>
+    <string name="create_account">Create Account </string>
+    <string name="already_account">Already have an account? </string>
+    <string name="login">Login </string>
+    <string name="welcome_text">Welcome to </string>
+    <string name="welcome_description">Discover amazing trails around you, what are you waiting for? \nJust Go Now!</string>
+    <string name="email_error_validate">Invalid Email Format </string>
+    <string name="password_error_validate">Too short password </string>
+    <string name="confirm_password_error_validate">Passwords don\'t match </string>
+    <string name="success_register">Account successfully created, Check your email for verification. </string>
+    <string name="dont_have_account">Don\'t have an account? </string>
+    <string name="email_already_in_use">The email address is already in use by another account </string>
+    <string name="no_network">A network error has occurred, check your connection </string>
+    <string name="no_verified_email">Email not verified, Please verify your email </string>
+    <string name="email_no_exist">The email you entered is not registered </string>
+    <string name="password_invalid">Password entered is incorrect </string>
+    <string name="add_new_trail">Add Trail</string>
+    <string name="trail_name_edit_text">Name </string>
+    <string name="trail_description_edit_text">Description </string>
+    <string name="trail_information_link_edit_text">Information URL </string>
+    <string name="trail_price_edit_text">Price </string>
+    <string name="trail_mapy_link_edit_text">Mapy URL </string>
+    <string name="email_empty">Enter the email address</string>
+    <string name="password_empty">Enter the password</string>
+    <string name="error_account_database">"Account created, but the database could not be updated "</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="reset_password_sent">Password reset, check your inbox</string>
+    <string name="users_subscribed">Registered Users</string>
+    <string name="trails_published">Published Trails</string>
+    <string name="add">Add</string>
+    <string name="logout">Logout</string>
+    <string name="image_link_edit_text">Image URL</string>
+    <string name="name_empty">Enter a name</string>
+    <string name="description_empty">Enter a description</string>
+    <string name="image_empty">Insert link to an image</string>
+    <string name="information_empty">Insert link to additional information</string>
+    <string name="mapy_empty">Insert link to Mapy</string>
+    <string name="price_empty">Please enter a price in Euros</string>
+    <string name="add_trail_success">Trail added correctly</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="trail_deleted">Trail successfully eliminated</string>
+    <string name="open_url_with">Open URL with …</string>
+    <string name="warning">Warning!</string>
+    <string name="warning_message">Are you sure you want to eliminate the trail? The deletion is irreversible.</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_trail_success">Trail edited correctly</string>
+    <string name="guided_hike" >"Guided hike: "</string>
+    <string name="add_review" >Add a review</string>
+    <string name="review_added" >Review entered</string>
+    <string-array name="votes">
+        <item>★★★★★ Amazing!</item>
+        <item>★★★★ I love it!</item>
+        <item>★★★ Nice</item>
+        <item>★★ Deludent</item>
+        <item>★ Not Recommended</item>
+    </string-array>
+    <string name="reviews_number" tools:ignore="PluralsCandidate">" ( %1$d reviews )"</string>
+    <string name="reviews_number_one" tools:ignore="PluralsCandidate">" ( %1$d review )"</string>
+    <string name="price_value" translatable="false">"%1$d €"</string>
+    <string name="review_removed" >Review removed</string>
+    <string name="edit_reviews" >Edit review</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="noReview" translatable="false">\?</string>
+    <string name="contactUs" >Contact us to book your excursion!</string>
+    <string-array name="votes_again">
+        <item>★★★★★ Amazing!</item>
+        <item>★★★★ I love it!</item>
+        <item>★★★ Nice</item>
+        <item>★★ Deludent</item>
+        <item>★ Not Recommended</item>
+        <item>Remove your review</item>
+    </string-array>
+
+</resources>

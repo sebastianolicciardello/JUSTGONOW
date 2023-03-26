@@ -1,0 +1,58 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.sebastiano.licciardello.justgonowtoadventure"
+        minSdk 23
+        targetSdk 33
+        versionCode 1
+        versionName "0.0.3b"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    // Skip this if you don't want to use integration libraries or configure Glide.
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.firebaseui:firebase-ui-database:8.0.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.core:core-splashscreen:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'androidx.navigation:navigation-fragment:2.5.2'
+    implementation 'androidx.navigation:navigation-ui:2.5.2'
+    implementation 'com.google.firebase:firebase-database:20.0.6'
+    implementation 'com.google.firebase:firebase-auth:21.0.8'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.firebase:firebase-firestore:24.3.1'
+    implementation 'com.github.AtifSayings:Animatoo:1.0.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

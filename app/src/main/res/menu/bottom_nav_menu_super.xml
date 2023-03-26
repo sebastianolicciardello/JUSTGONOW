@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Trails"
+        android:title="@string/trails"
+        android:icon="@drawable/ic_baseline_hiking_48"/>
+    <item android:id="@+id/AddTrail"
+        android:title="@string/add"
+        android:icon="@drawable/ic_baseline_add_24"/>
+    <item android:id="@+id/Settings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginVertical="32dp"
+        android:id="@+id/welcome_icon"
+        android:src="@drawable/ic_baseline_hiking_48"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="?attr/colorControlNormal"
+        android:textSize="32sp"
+        />
+
+    <ProgressBar
+        style="@style/Theme.JustGoNow"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:indeterminateTint="?attr/colorControlNormal" />
+
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".TrailDetailsActivity"
+            android:layout_marginVertical="16dp"
+            android:layout_marginHorizontal="32dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:id="@+id/title_bar_layout"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="?colorControlNormal"
+                    android:text="@string/add_new_trail"
+                    android:textSize="36sp"
+                    android:textAlignment="center"
+                    />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_bar_layout"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/trail_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_corner"
+                    android:hint="@string/trail_name_edit_text"
+                    android:inputType="textAutoCorrect"
+                    android:textColor="?attr/colorControlNormal"
+                    android:padding="16dp"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/trail_description_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_corner"
+                    android:hint="@string/trail_description_edit_text"
+                    android:inputType="textMultiLine"
+                    android:textColor="?attr/colorControlNormal"
+                    android:padding="16dp"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/image_link_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_corner"
+                    android:hint="@string/image_link_edit_text"
+                    android:inputType="textWebEditText"
+                    android:textColor="?attr/colorControlNormal"
+                    android:padding="16dp"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/trail_information_link_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_corner"
+                    android:hint="@string/trail_information_link_edit_text"
+                    android:inputType="textWebEditText"
+                    android:textColor="?attr/colorControlNormal"
+                    android:padding="16dp"
+                    android:textSize="20sp" />
+
+
+
+                <EditText
+                    android:id="@+id/trail_mapy_link_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="?attr/colorControlNormal"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_corner"
+                    android:hint="@string/trail_mapy_link_edit_text"
+                    android:inputType="textAutoCorrect"
+                    android:padding="16dp"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/trail_price_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="?attr/colorControlNormal"
+                    android:layout_marginBottom="10dp"
+                    android:autofillHints=""
+                    android:background="@drawable/rounded_corner"
+                    android:hint="@string/trail_price_edit_text"
+                    android:inputType="number"
+                    android:padding="16dp"
+                    android:textSize="20sp" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/confirm_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="12dp"
+                    android:padding="12dp"
+                    android:text="@string/confirm"
+                    android:layout_marginBottom="50dp"
+                    android:textSize="16sp"
+                    />
+
+                <ProgressBar
+                    android:id="@+id/progress_bar_addTrail"
+                    android:layout_width="24dp"
+                    android:layout_height="64dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:indeterminateTint="?colorControlNormal"
+                    android:layout_marginBottom="50dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+</ScrollView>
+
+

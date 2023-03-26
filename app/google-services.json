@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "422489975165",
+    "firebase_url": "https://just-go-now-e4ee5-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "just-go-now-e4ee5",
+    "storage_bucket": "just-go-now-e4ee5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422489975165:android:c328e19fb28d11953a0414",
+        "android_client_info": {
+          "package_name": "com.sebastiano.licciardello.justgonowtoadventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422489975165-8vsi410dl26r5j2mqnigd8ts48d1lunh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sebastiano.licciardello.justgonowtoadventure",
+            "certificate_hash": "6bd22d64e97df782e9a896aa874b97087a6d9167"
+          }
+        },
+        {
+          "client_id": "422489975165-jfp1qbbcrsc6iuomjqdbub8kl99s8gl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZrDsXynAYiGnA79U9LVU5NknNiCZCy7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422489975165-jfp1qbbcrsc6iuomjqdbub8kl99s8gl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
